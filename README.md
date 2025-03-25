@@ -29,7 +29,6 @@ There are several ways to install the Script Tool:
    ```bash
    sudo mv script-tool_* /usr/local/bin/script-tool
    ```
-```
 
 ### Option 2: Go install
 
@@ -42,7 +41,13 @@ go install github.com/nguyenvanduocit/script-mcp
 ### Claude
 
 ```
-
+{
+  "mcpServers": {
+    "script": {
+      "command": "/path-to/script-mcp"
+    }
+  }
+}
 ```
 
 
