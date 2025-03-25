@@ -16,18 +16,18 @@ There are several ways to install the Script Tool:
 
 ### Option 1: Download from GitHub Releases
 
-1. Visit the [GitHub Releases](https://github.com/yourusername/script-tool/releases) page
+1. Visit the [GitHub Releases](https://github.com/nguyenvanduocit/script-mcp/releases) page
 2. Download the binary for your platform:
-   - `script-tool_linux_amd64` for Linux
-   - `script-tool_darwin_amd64` for macOS
-   - `script-tool_windows_amd64.exe` for Windows
+   - script-mcp_linux_amd64` for Linux
+   - `script-mcp_darwin_amd64` for macOS
+   - `script-mcp_windows_amd64.exe` for Windows
 3. Make the binary executable (Linux/macOS):
    ```bash
-   chmod +x script-tool_*
+   chmod +x script-mcp_*
    ```
 4. Move it to your PATH (Linux/macOS):
    ```bash
-   sudo mv script-tool_* /usr/local/bin/script-tool
+   sudo mv script-mcp_* /usr/local/bin/script-mcp
    ```
 
 ### Option 2: Go install
