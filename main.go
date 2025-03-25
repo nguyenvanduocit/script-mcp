@@ -5,21 +5,13 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/joho/godotenv"
 	"github.com/mark3labs/mcp-go/server"
 	"github.com/nguyenvanduocit/script-mcp/tools"
 )
 
 func main() {
-	envFile := flag.String("env", ".env", "Path to environment file")
 	ssePort := flag.String("sse_port", "", "Port for SSE server. If not provided, will use stdio")
 	flag.Parse()
-
-	if *envFile != "" {
-		if err := godotenv.Load(*envFile); err != nil {
-			fmt.Printf("Warning: Error loading env file %s: %v\n", *envFile, err)
-		}
-	}
 
 	mcpServer := server.NewMCPServer(
 		"Script Tool",
