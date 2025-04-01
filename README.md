@@ -27,7 +27,7 @@ There are several ways to install the Script Tool:
    ```
 4. Move it to your PATH (Linux/macOS):
    ```bash
-   sudo mv script-mcp_* /usr/local/bin/script-mcp
+   sudo mv script-mcp_* /usr/local/bin/script-mcp@latest
    ```
 
 ### Option 2: Go install
