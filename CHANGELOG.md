@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/nguyenvanduocit/script-mcp/compare/v1.0.0...v1.1.0) (2026-03-13)
+
+
+### Features
+
+* add CLI package and update README with CLI usage ([13667c2](https://github.com/nguyenvanduocit/script-mcp/commit/13667c2fb0796975c53dadbd7bc2d981cdfa93af))
+
 ## 1.0.0 (2025-03-25)
 
 
