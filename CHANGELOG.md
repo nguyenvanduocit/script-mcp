@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/nguyenvanduocit/script-mcp/compare/v1.0.0...v1.0.1) (2026-03-13)
+
+
+### Bug Fixes
+
+* use merge instead of squash to preserve commit SHAs for release-please ([b5febf9](https://github.com/nguyenvanduocit/script-mcp/commit/b5febf9018534e2f359c3c3dff8a580f01c8afca))
+
 ## 1.0.0 (2026-03-13)
 
 
