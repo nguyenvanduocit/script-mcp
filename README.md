@@ -51,6 +51,66 @@ go install github.com/nguyenvanduocit/script-mcp
 ```
 
 
+## CLI Usage
+
+In addition to the MCP server, `script-mcp` ships a standalone CLI binary (`script-cli`) for direct terminal use — no MCP client needed.
+
+### Installation
+
+```bash
+just install-cli
+# or
+go install github.com/nguyenvanduocit/script-mcp/cmd/cli@latest
+```
+
+### Quick Start
+
+No credentials required. The CLI executes scripts locally.
+
+```bash
+script-cli execute --content "echo Hello, World!"
+```
+
+### Commands
+
+| Command | Description |
+|---------|-------------|
+| `execute` (or `exec`, `run`) | Safely execute a script with timeout |
+
+### Examples
+
+```bash
+# Run a shell command
+script-cli execute --content "ls -la"
+
+# Run with a specific interpreter
+script-cli execute --content "print('Hello')" --interpreter /usr/bin/python3
+
+# Run with a working directory
+script-cli execute --content "pwd" --working-dir /tmp
+
+# Run a multi-line script
+script-cli execute --content "#!/bin/bash
+echo 'Starting...'
+date
+echo 'Done'"
+
+# JSON output (captures stdout/stderr separately)
+script-cli exec --content "echo hello" --output json
+```
+
+### Flags
+
+| Flag | Description |
+|------|-------------|
+| `--content` | Script content to execute (required) |
+| `--interpreter` | Interpreter path (default: `/bin/sh`) |
+| `--working-dir` | Working directory for execution |
+| `--env` | Path to `.env` file |
+| `--output` | Output format: `text` (default) or `json` |
+
+> **Note:** Scripts time out after 30 seconds.
+
 ## Contributing
 
 1. Fork the repository
