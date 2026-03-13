@@ -60,7 +60,7 @@ In addition to the MCP server, `script-mcp` ships a standalone CLI binary (`scri
 ```bash
 just install-cli
 # or
-go install github.com/nguyenvanduocit/script-mcp/cmd/cli@latest
+go install github.com/nguyenvanduocit/script-mcp/cmd/script-cli@latest
 ```
 
 ### Quick Start
