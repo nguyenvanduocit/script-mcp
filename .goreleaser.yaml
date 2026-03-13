@@ -36,7 +36,21 @@ builds:
       - -s -w -X main.version={{.Version}}
 
 archives:
-  - name_template: "{{ .ProjectName }}_{{ .Os }}_{{ .Arch }}"
+  - id: script-mcp
+    ids:
+      - script-mcp
+    name_template: "script-mcp_{{ .Os }}_{{ .Arch }}"
+    formats:
+      - tar.gz
+    format_overrides:
+      - goos: windows
+        formats:
+          - zip
+
+  - id: script-cli
+    ids:
+      - script-cli
+    name_template: "script-cli_{{ .Os }}_{{ .Arch }}"
     formats:
       - tar.gz
     format_overrides:
