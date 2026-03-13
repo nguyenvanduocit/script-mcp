@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/nguyenvanduocit/script-mcp/compare/v1.0.1...v1.0.2) (2026-03-13)
+
+
+### Bug Fixes
+
+* checkout tagged commit in goreleaser to fix tag mismatch ([f03fa65](https://github.com/nguyenvanduocit/script-mcp/commit/f03fa65240cfb03dd24fd0749e20b60b29ed0bdc))
+
 ## [1.0.1](https://github.com/nguyenvanduocit/script-mcp/compare/v1.0.0...v1.0.1) (2026-03-13)
 
 
