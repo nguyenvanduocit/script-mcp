@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/nguyenvanduocit/script-mcp/compare/v1.0.2...v1.0.3) (2026-03-13)
+
+
+### Bug Fixes
+
+* add explicit archive IDs for homebrew brew formula ([4140523](https://github.com/nguyenvanduocit/script-mcp/commit/414052356219e4c8b8400da3263d1ce6d2760daf))
+
 ## [1.0.2](https://github.com/nguyenvanduocit/script-mcp/compare/v1.0.1...v1.0.2) (2026-03-13)
 
 
